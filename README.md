@@ -26,11 +26,12 @@ Given that all three tasks proposed by the competition are classification tasks,
 Specifically, we designed two stages for each task:
 * Baseline models -> use of simple models to ensure the correct functionality of the code, and to initially evaluate which models work best for the given task
 * Advanced models -> following the identification of the most effective baseline model, advanced techniques were then applied to further improve the results
+
 In order to improve the results we applied the following techniques:
-* Use of larger models
-* Pretrained models
-* Learning rate scheduling 
-* Data augmentation
+    * Use of larger models
+    * Pretrained models
+    * Learning rate scheduling 
+    * Data augmentation
 
 
 # Models
@@ -52,7 +53,7 @@ The models we used for the classification, taken from [huggingface](https://hugg
 # Results
 The referment metrics we used is the F1-score.
 The results of all the models in the respective task can be summarized by the following tabel:
-![image]()
+![image](https://github.com/DANIELEMARINI99/SemEval-2023/blob/main/results.png)
 
 As we can see the best models for each task are:
 * Task A -> RoBERTa pretrained on hate speech [0.83%]
