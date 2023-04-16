@@ -1,12 +1,14 @@
 # SemEval-2023
 Final Project for the "Natural Language Processing" course of the Artificial Intelligence Master's Degree at University of Bologna
 
+# Task Description
 The sexist classification task is the process of categorizing textual data into predefined classes.
 The project is divided in 3 tasks:
 * Task A -> Binary classification of sexist (sexist, not sexist)
 * Task B -> Classification of sexism categories (threats, derogation, animosity, prejudiced discussion)
 * Task C -> Classification of sexism subcategories (e.g. threats of harm, descriptive attacks)
 The entire structure can be represented as follow:
+
 ![image](https://github.com/DANIELEMARINI99/SemEval-2023/blob/main/edos_vectors.png)
 
 # Authors
@@ -53,6 +55,7 @@ The models we used for the classification, taken from [huggingface](https://hugg
 # Results
 The referment metrics we used is the F1-score.
 The results of all the models in the respective task can be summarized by the following tabel:
+
 ![image](https://github.com/DANIELEMARINI99/SemEval-2023/blob/main/results.png)
 
 As we can see the best models for each task are:
