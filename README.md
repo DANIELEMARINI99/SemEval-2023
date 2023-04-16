@@ -18,7 +18,7 @@ The entire structure can be represented as follow:
 
 # Data
 The [dataset](https://codalab.lisn.upsaclay.fr/competitions/7124#learn_the_details), provided by CodaLab include about 14000 labeled sentences.
-Since the dataset is hierarchical, each sentence is associated with 3 features, one for each task, so the sentences classified as not sexist will be removed for the other tasks.
+Since the dataset is hierarchical, each sentence is associated with 3 labels, one for each task, so the sentences classified as not sexist will be removed for the other tasks.
 
 # Goal
 The goal of this project is to obtain the best possible results on each singular task by training different models and enhancing their performance.
