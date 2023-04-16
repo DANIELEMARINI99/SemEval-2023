@@ -30,10 +30,10 @@ Specifically, we designed two stages for each task:
 * Advanced models -> following the identification of the most effective baseline model, advanced techniques were then applied to further improve the results
 
 In order to improve the results we applied the following techniques:
-    * Use of larger models
-    * Pretrained models
-    * Learning rate scheduling 
-    * Data augmentation
+* Use of larger models
+* Pretrained models
+* Learning rate scheduling 
+* Data augmentation
 
 
 # Models
